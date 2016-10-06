@@ -1,0 +1,58 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+
+
+.newsletter fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px;
+}
+
+select {
+  margin: 5px;
+}
+
+textarea {
+  margin: 5px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: solid 3px blue;
+}
+
+select:focus {
+  outline: solid 3px blue; 
+}
+
+textarea:focus {
+   outline: solid 3px blue;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
