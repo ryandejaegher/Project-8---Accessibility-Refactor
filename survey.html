@@ -31,7 +31,7 @@
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Concert">
           <div class="container">
-            <form role="accessible-frog-survey" class="survey">
+            <form class="survey">
               <fieldset>
                 <legend>Survey</legend>
                 <label for="favmember">Who is your favorite band member:</label><br>
@@ -61,7 +61,7 @@
                   </select><br>
 
               <label for="favsong">What is your favorite song:</label><br>
-              <textarea id="favsong" name="favoritesong"></textarea>
+              <textarea role="textbox" id="favsong" name="favoritesong"></textarea>
               </fieldset>
             </form>
           </div>
@@ -72,7 +72,7 @@
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="Band">
             <div class="container">
-              <form role="accessible-frog-newsletter" class="newsletter">
+              <form role="form" class="newsletter">
                 <fieldset>
                   <legend>Newsletter Signup</legend>
                   <label for="name">Name:</label> 
@@ -82,7 +82,7 @@
                   <label for="retype-email">Retype Email:</label>
                   <input id="retype-email" type ="email" name="textfield">
                   <label for="sign-up">
-                  <button id="sign-up" type="submit" aria-describedy="hint">Sign Up</button>
+                  <button id="sign-up" type="submit" aria-describedby="hint">Sign Up</button>
                   <p id="hint">Clicking the sign up button will sign you up for the Accessible Frog newsletter. You can sign up by entering your name and email address.</p>
                 </fieldset>
               </form>
