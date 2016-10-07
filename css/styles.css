@@ -181,7 +181,7 @@ a.social {
   transition: all .5s;
 }
 
-a.twitter {
+/*a.twitter {
   background-image: url(../img/twitter-32.png);
 }
 
@@ -191,7 +191,7 @@ a.youtube {
 
 a.spotify {
   background-image: url(../img/spotify-32.png);
-}
+}*/
 
 a.social:hover {
   opacity: 1;
